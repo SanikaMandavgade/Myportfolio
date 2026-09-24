@@ -509,3 +509,19 @@ body.cursor-hover .premium-cursor-ring{
 @media (pointer:coarse), (max-width:700px){
   .premium-cursor-dot,.premium-cursor-ring{display:none !important}
 }
+
+
+/* SM initials — refined spacing on desktop, tablet and mobile */
+.hero-initials{
+  letter-spacing: .08em;
+}
+@media (max-width: 1100px){
+  .hero-initials{
+    letter-spacing: .075em;
+  }
+}
+@media (max-width: 600px){
+  .hero-initials{
+    letter-spacing: .09em;
+  }
+}
