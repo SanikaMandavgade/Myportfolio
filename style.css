@@ -512,16 +512,9 @@ body.cursor-hover .premium-cursor-ring{
 
 
 /* SM initials — refined spacing on desktop, tablet and mobile */
-.hero-initials{
-  letter-spacing: .08em;
-}
-@media (max-width: 1100px){
-  .hero-initials{
-    letter-spacing: .075em;
-  }
-}
-@media (max-width: 600px){
-  .hero-initials{
-    letter-spacing: .09em;
-  }
-}
+.hero-initials{letter-spacing:.12em;}
+@media (max-width:1100px){.hero-initials{letter-spacing:.11em;}}
+@media (max-width:600px){.hero-initials{letter-spacing:.14em;}}
+
+/* Final CTA arrow: plain line arrow, never emoji */
+.service-enquiry-btn span{font-family:Arial,Helvetica,sans-serif;font-variant-emoji:text;}

@@ -20,3 +20,6 @@ GitHub Pages:
 Settings → Pages → Deploy from a branch → main → /(root) → Save
 
 The website uses root-relative file paths so it works when these files are uploaded directly to the repository root.
+
+
+Final visual update: service CTA uses a plain line arrow (→), and SM initials have responsive letter spacing for mobile/tablet/desktop.
